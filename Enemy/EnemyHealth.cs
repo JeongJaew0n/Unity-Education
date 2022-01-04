@@ -13,7 +13,7 @@ public class EnemyHealth : MonoBehaviour
     public ParticleSystem hitParticle;  //적이 맞았을 때 나오는 효과(파티클)
     public NavMeshAgent navMeshAgent;   //
 
-    private AudioSource audio;
+    private new AudioSource audio;
 
     IEnumerator Start()
     {
@@ -56,9 +56,10 @@ public class EnemyHealth : MonoBehaviour
         // 적 이동 컴포넌트 파괴
 
         audio.clip = deathClip;
-        GetComponent<Animator>().SetBool("isDie", true);        //animation
+        GetComponent<Animator>().SetTrigger("IsDie");        //animation
 
         // 스코어 적산 가능
     }
+
 
 }
