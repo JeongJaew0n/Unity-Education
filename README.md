@@ -6,7 +6,7 @@ VR/AR Unity education in CWNU
 It was very fun!
 
 ## And more
-Programming as Unity is the funnest i've ever done
+Programming on Unity is the funnest i've ever done
 So I'm going to teach myself Unity
 
 ### I'm interested in making a text game now
